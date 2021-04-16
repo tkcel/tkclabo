@@ -9,7 +9,7 @@ const Header = () => {
       <Link to="/">
         <StaticImage
           className="header-logo-image"
-          src="../../../../static/icons/header-icon.png"
+          src="../../../../static/icons/logo.png"
           alt="logo"
         />
       </Link>
