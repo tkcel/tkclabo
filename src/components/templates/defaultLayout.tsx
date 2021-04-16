@@ -1,12 +1,14 @@
 import React from 'react'
-import './index.css'
-import Header from '../Header/index'
+import './defaultLayout.css'
+import Header from './header'
+import Footer from './footer'
 
 const DefaultLayout: React.FC = ({ children }) => {
   return (
     <div className="root">
       <Header />
       <main>{children}</main>
+      <Footer />
     </div>
   )
 }

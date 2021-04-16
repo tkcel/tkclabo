@@ -1,7 +1,8 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
-import './index.css'
+import './header.css'
+import '../../../static/icons/logo.png'
 
 const Header = () => {
   return (
@@ -9,7 +10,7 @@ const Header = () => {
       <Link to="/">
         <StaticImage
           className="header-logo-image"
-          src="../../../../static/icons/logo.png"
+          src="../../../static/icons/logo.png"
           alt="logo"
         />
       </Link>
